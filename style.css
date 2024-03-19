@@ -1,0 +1,16 @@
+ul {
+    display:flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+}
+ul li {
+    color: #000000;
+    display: inline-block;
+    place-content: center;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.navdiv {
+    background-color:#FFDF36;
+}
