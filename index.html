@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<https://pyscript.net/latest/pyscript.css>" />
+    <script defer src="<https://pyscript.net/latest/pyscript.js>"></script>
     <!--[if lte IE 8]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -12,7 +14,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-faded" style="background-color:#FFDF36; border-color: #000;"> 
-        <a class="navbar-brand" href="#" style="font-family:Georgia, 'Times New Roman', Times, serif, Light; font-size: 35px; font-style: italic;" >La vitale</a>
+        <a class="navbar-brand" href="#" style="font-family:Georgia, 'Times New Roman', Times, serif, Light; font-size: 30px; font-style: italic;" >La vitale</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,13 +30,15 @@
               <a class="nav-link" href="#">Pricing</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown">
+                <button class="mainmenubtn">Main Menu</button>
+                <div class="dropdown-child">
+                  <a href="http://wwww.yourdomain.com/page1.html">Sub Menu 1</a>
+                  <a href="http://wwww.yourdomain.com/page2.html">Sub Menu 2</a>
+                  <a href="http://wwww.yourdomain.com/page3.html">Sub Menu 3</a>
+                  <a href="http://wwww.yourdomain.com/page4.html">Sub Menu 4</a>
+                  <a href="http://wwww.yourdomain.com/page5.html">Sub Menu 5</a>
+                </div>
               </div>
             </li>
           </ul>
