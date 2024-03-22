@@ -14,32 +14,24 @@ ul li {
 .navdiv {
     background-color:#FFDF36;
 }
-.mainmenubtn {
-    background-color: skyblue;
-    color: white;
-    border: none;
+li {
+    padding: 0px;
+    list-style: none;
+  }
+  
+  a {
     cursor: pointer;
-    padding:20px;
-    margin-top:0px;
-}
-.mainmenubtn:hover {
-    background-color: rgb(47, 45, 55);
-    }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: skyblue;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
+    color: #38C;
+  }
+  
+  .intern {
+    transition: all 0.52s;
+    height: 0px;
+    overflow: hidden;
+  }
+  
+  .intern li {
+    transition: all 0.52s;
+    margin-left: 2px;
+  }
+  

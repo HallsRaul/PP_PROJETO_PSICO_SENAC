@@ -1,47 +1,47 @@
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <ul>
+      <li><a>Texto</a>
+        <ul class="intern">
+          <li>Texto</li>
+          <li>Texto</li>
+          <li>Texto</li>  
+        </ul>
 <style>
-.mainmenubtn {
-    background-color: skyblue;
-    color: white;
-    border: none;
+    li {
+    padding: 7px;
+    list-style: none;
+  }
+  
+  a {
     cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.mainmenubtn:hover {
-    background-color: blue;
-    }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: skyblue;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
+    color: #38C;
+  }
+  
+  .intern {
+    transition: all 0.52s;
+    height: 0px;
+    overflow: hidden;
+  }
+  
+  .intern li {
+    transition: all 0.52s;
+    margin-left: -52px;
+  }
 </style>
-</head>
-<body>
-<div class="dropdown">
-  <button class="mainmenubtn">Main Menu</button>
-  <div class="dropdown-child">
-    <a href="http://wwww.yourdomain.com/page1.html">Sub Menu 1</a>
-    <a href="http://wwww.yourdomain.com/page2.html">Sub Menu 2</a>
-    <a href="http://wwww.yourdomain.com/page3.html">Sub Menu 3</a>
-    <a href="http://wwww.yourdomain.com/page4.html">Sub Menu 4</a>
-    <a href="http://wwww.yourdomain.com/page5.html">Sub Menu 5</a>
-  </div>
-</div>
+<script>
+    $("a").click(function() {
+    if($(".intern").css("height") != "100px") {
+      $(".intern").css("height", "100px");
+      $(".intern li").css("marginLeft", "0px");
+    }
+    
+    else {
+      $(".intern").css("height", "0px");
+      $(".intern li").css("marginLeft", "-52px");
+    }
+  });
+</script>
 </body>
 </html>

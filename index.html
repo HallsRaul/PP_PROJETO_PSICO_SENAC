@@ -30,16 +30,55 @@
               <a class="nav-link" href="#">Pricing</a>
             </li>
             <li class="nav-item dropdown">
-              <div class="dropdown">
-                <button class="mainmenubtn">Main Menu</button>
-                <div class="dropdown-child">
-                  <a href="http://wwww.yourdomain.com/page1.html">Sub Menu 1</a>
-                  <a href="http://wwww.yourdomain.com/page2.html">Sub Menu 2</a>
-                  <a href="http://wwww.yourdomain.com/page3.html">Sub Menu 3</a>
-                  <a href="http://wwww.yourdomain.com/page4.html">Sub Menu 4</a>
-                  <a href="http://wwww.yourdomain.com/page5.html">Sub Menu 5</a>
-                </div>
-              </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <ul>
+                  <li><a>Menu</a>
+                    <ul class="intern">
+                      <li>Texto</li>
+                      <li>Texto</li>
+                      <li>Texto</li>  
+                    </ul>
+            <style>
+                li {
+                padding: 0px;
+                list-style: none;
+                padding-left: 50px;
+              }          
+              a {
+                cursor: pointer;
+                color: #38C;
+              }
+              
+              .intern {
+                transition: all 0.52s;
+                height: 0px;
+                overflow:hidden;
+              }
+              
+              .intern li {
+                transition: all 0s;
+                margin-left: 0px;
+                display:contents;
+              }
+            </style>
+            <script>
+                $("a").click(function() {
+                if($(".intern").css("height") != "100px"){
+                  $(".intern").css("height", "100px");
+                  $(".intern li").css("marginLeft", "0px");
+                }
+                else {
+                  $(".intern").css("height", "0px");
+                  $(".intern li").css("marginLeft", "0px");
+                }
+              });
+              $("a").click(function() {
+                if($(".li").css("height") != "50px") {
+                  $(".li").css("height", "50px");
+                  $("intern.li").css("marginBottom", "50px");
+                }
+              });
+            </script>
             </li>
           </ul>
         </div>
