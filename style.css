@@ -1,2 +1,87 @@
+body{
+    background: rgb(255,223,54);
+    background: radial-gradient(circle, rgba(255,223,54,1) 0%, rgba(131,58,180,1) 100%);
+    background-size: cover;
+}
+.titulo1{
+    margin-top: 15%;
+    margin-right: 20%;
+    position:absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif, Light;
+    font-size: 50px;
+    color: black;
+}
 
+a{
+    text-decoration: none;
+    text-align:justify;
+}
+
+a :link{
+    text-decoration: none;
+}
+
+a:visited { 
+    color: none;		
+    text-decoration:none;  	
+ }    	
+ a:active {  				
+    color: #574CFC  ;
+    text-decoration:none;  	
+ }    	
+ a:hover {  			
+    text-decoration:none;  	
+ }  
+
+.menu {
+    width: 350px;
+    height: 100%;
+    background-color: #131111f5;
+    position: fixed;
+    top: 0;
+    left: -350px;
+    transition: left 0.3s ease;
+  }
   
+  .menu.open {
+    left: 0;
+    -webkit-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  ul li {
+    margin-top: 11.5%;
+    margin-bottom: 11.5%;
+    margin-left: 5%;
+    list-style: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+  }
+  #drawer{
+    margin:15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 5%;
+    border-style: none;
+    background-image: url('https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png');
+    background-size: cover;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  }
+  #drawer2{
+    margin-left: 15%;
+    margin-top: 15%;
+    height: 45px;
+    width: 70px;
+    border-radius: 5%;
+    border-style: none;
+    background-size: cover;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)
+  }
+  a {
+    text-decoration: none;
+  }
+
+/* #574CFC cor contrária ao amarelo (#FFDF36) /
