@@ -1,39 +1,51 @@
-body{
+  .indexbody{
     background-image:url(./img/background\ la\ vitale.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.titulo1{
-    margin-left: 50%;
-    margin-top: 8%;
+  }
+  .mainbody{
+    background-image:url(./img/backgorun\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .titulo1{
+    margin-left: 45%; 
+    margin-top: 22.7%;
     margin-right: 20%;
-    position:absolute;
+    position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif, Light;
-    font-size: large;
+    font-size: 80px;
     color: black;
     box-sizing: 33%;
-    display: table-column-group;
-}
+    display: inline-block;
+    transition: 500ms linear;
+    translate: 50px;
+    text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
+  }
 
-a{
+  .titulo1:hover{
+    transform: scale(1.1);
+    transform: scaleY(1.2);
+  }
+
+  a{
     text-decoration: none;
     text-align:justify;
-}
+  }
 
-a :link{
+  a :link{
     text-decoration: none;
-}
+  }
 
-a:visited { 
+  a:visited { 
     color: none;		
     text-decoration:none;  	
  }    	
- a:active {  				
+  a:active {  				
     color: #FFDF36 ;
     text-decoration:none; 
-    transform: scale(1.5);
  }    	
- a:hover {  			
+  a:hover {  			
     transition: transform 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 500ms linear;;
     color: #FFDF36;
@@ -42,7 +54,7 @@ a:visited {
     text-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
  }  
 
-.menu {
+  .menu {
     width: 350px;
     height: 100%;
     background-color: #131111f5;
@@ -94,23 +106,28 @@ a:visited {
   }
 
   .texto1 {
-    margin-top: 10%;
+    margin-top: 23%;
     font-size: 20px;
     margin-left: 5%;
-    margin-right: 55%;
+    margin-right: 2%;
+    position: absolute;
     text-align: justify;
     box-sizing: 33%;
-    display: table;
+    display: inline-block;
+    color: rgb(14, 14, 14);
+    text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
   }
   
   .texto1 {
-    animation-duration: 3s;
+    animation-duration: 3.5s;
     animation-name: slidein;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Light;
+    font-size: 30px;
   }
   
   @keyframes slidein {
     from {
-      margin-left: 50%;
+      margin-left: 25%;
       width: 45%;
     }
   
