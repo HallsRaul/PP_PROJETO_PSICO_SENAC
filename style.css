@@ -138,5 +138,16 @@
     }
   }
   
-
+  .imagem_menu{
+    width: 100%;
+    margin-top: 32%;
+  }
+  .imagem_menu img{
+    width: 6%;
+    margin-left:90%;
+  }
+  .imagem_menu img:hover{
+    transform: scale(1.1);
+    transition: 550ms linear;
+  }
 /* #574CFC cor contrária ao amarelo (#FFDF36) /
