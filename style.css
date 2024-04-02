@@ -26,6 +26,7 @@
   .titulo1:hover{
     transform: scale(1.1);
     transform: scaleY(1.2);
+    transform: scaleX(1.1);
   }
 
   a{
