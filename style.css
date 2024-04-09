@@ -14,7 +14,7 @@
     margin-right: 20%;
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif, Light;
-    color: rgb(255, 255, 255);
+    color: rgb(252, 241, 241);
     box-sizing: 33%;
     display: inline-block;
     transition: 500ms linear;
@@ -47,7 +47,7 @@
     color: #FFDF36;
     text-decoration:none;  	
     text-transform: uppercase;
-    text-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 4px 0px 5px 0px rgba(15, 15, 15, 0.75);
   }  
 
   .menu {
