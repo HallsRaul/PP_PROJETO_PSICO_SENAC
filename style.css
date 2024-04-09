@@ -22,30 +22,26 @@
     translate: 50px;
     text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
   }
-
   .titulo1:hover{
-    transform: scale(1.1);
-    transform: scaleY(1.2);
-    transform: scaleX(1.1);
+    transform: scaleY(1.0);
+    transform: scaleX(1.02);
   }
 
   a{
     text-decoration: none;
     text-align:justify;
   }
-
   a :link{
     text-decoration: none;
   }
-
   a:visited { 
     color: none;		
-    text-decoration:none;  	
- }    	
+    text-decoration:none;
+  }    	
   a:active {  				
     color: #FFDF36 ;
     text-decoration:none; 
- }    	
+  }    	
   a:hover {  			
     transition: transform 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 500ms linear;;
@@ -53,7 +49,7 @@
     text-decoration:none;  	
     text-transform: uppercase;
     text-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
- }  
+  }  
 
   .menu {
     width: 350px;
@@ -63,8 +59,8 @@
     top: 0;
     left: -350px;
     transition: left 0.3s ease;
+    position: absolute;
   }
-  
   .menu.open {
     left: 0;
     -webkit-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
@@ -100,10 +96,7 @@
     border-radius: 5%;
     border-style: none;
     background-size: cover;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)
-  }
-  a {
-    text-decoration: none;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
   }
 
   .texto1 {
@@ -113,7 +106,7 @@
     margin-right: 2%;
     position: absolute;
     text-align: justify;
-    box-sizing: 33%;
+    box-sizing: 30%;
     display: inline-block;
     color: rgb(14, 14, 14);
     text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
@@ -129,12 +122,12 @@
   @keyframes slidein {
     from {
       margin-left: 25%;
-      width: 45%;
+      width: 35%;
     }
   
     to {
       margin-left: 5%;
-      width: 100%;
+      width: 80%;
     }
   }
   
