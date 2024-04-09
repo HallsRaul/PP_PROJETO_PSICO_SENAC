@@ -150,4 +150,7 @@
     transform: scale(1.1);
     transition: 550ms linear;
   }
+  p {
+    text-align: justify;
+  }
 /* #574CFC cor contrária ao amarelo (#FFDF36) /
