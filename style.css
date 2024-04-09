@@ -14,8 +14,7 @@
     margin-right: 20%;
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif, Light;
-    font-size: 80px;
-    color: black;
+    color: rgb(255, 255, 255);
     box-sizing: 33%;
     display: inline-block;
     transition: 500ms linear;
