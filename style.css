@@ -1,16 +1,27 @@
   .indexbody{
-    background-image:url(./img/background\ la\ vitale.png);
+    background-image: linear-gradient(rgb(43, 6, 43), rgb(100, 8, 100), rgb(43, 6, 43));
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .mainbody{
+    background-image: repeating-linear-gradient(rgb(65, 8, 65), rgb(100, 8, 100), rgb(65, 8, 65));
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .mainbody{
-    background-image:url(./img/backgorun\ 2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  main {
+    background-color: rgba(255, 255, 255, 0.874);
+    margin-top: 2%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 0.05rem;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
   }
   .titulo1{
     margin-left: 45%; 
-    margin-top: 22.7%;
+    margin-top: 15.5%;
     margin-right: 20%;
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif, Light;
@@ -24,6 +35,7 @@
   .titulo1:hover{
     transform: scaleY(1.0);
     transform: scaleX(1.02);
+    text-transform: uppercase;
   }
 
   a{
@@ -46,7 +58,6 @@
     box-shadow: 500ms linear;;
     color: #FFDF36;
     text-decoration:none;  	
-    text-transform: uppercase;
     text-shadow: 4px 0px 5px 0px rgba(15, 15, 15, 0.75);
   }  
 
@@ -67,7 +78,7 @@
     box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.75);
   }
   ul li {
-    margin-top: 11.5%;
+    margin-top: 13.5%;
     margin-bottom: 11.5%;
     margin-left: 5%;
     list-style: none;
@@ -77,15 +88,23 @@
   }
   #drawer{
     margin:15px;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 5%;
     border-style: none;
-    background-image: url('https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png');
+    background-color: rgba(7, 6, 6, 0.744);
     background-size: cover;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75); 
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  }
+  .iconmenu{
+    margin-left: 15.9%; 
+    margin-top:10%;
+    margin-bottom: 5%;
+    height: 7%;
+    width: 65%;
+    background-color: white;
   }
   #drawer2{
     margin-left: 15%;
@@ -99,9 +118,9 @@
   }
 
   .texto1 {
-    margin-top: 23%;
+    margin-top: 16%;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 2%;
     position: absolute;
     text-align: justify;
@@ -112,12 +131,22 @@
   }
   
   .texto1 {
-    animation-duration: 3.5s;
+    animation-duration: 1.8s;
     animation-name: slidein;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Light;
     font-size: 30px;
   }
-  
+  .texto2 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+    position: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+    display: inline-block;
+    color: rgb(14, 14, 14);
+  }
   @keyframes slidein {
     from {
       margin-left: 25%;
@@ -125,8 +154,8 @@
     }
   
     to {
-      margin-left: 5%;
-      width: 80%;
+      margin-left: 10%;
+      width: 50%;
     }
   }
   
