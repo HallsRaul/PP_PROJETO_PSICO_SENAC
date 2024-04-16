@@ -1,4 +1,4 @@
-<?php
+<?php>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +30,7 @@
     </div>
   </nav>
 
-    <a href="main.html" class="titulo1"><h1>La Vitale</h1></a>
+    <a href="main.php" class="titulo1"><h1>La Vitale</h1></a>
     <h1 class="texto1" style="text-decoration: underline; text-decoration-thickness:calc(2px);";>Aprenda, se cuide e se conheça!</h1>
 
     <div class="imagem_menu">
@@ -38,4 +38,4 @@
     </div>
 </body>
 </html>
-?>
+</?>

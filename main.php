@@ -1,4 +1,4 @@
-<?php
+<?php>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +20,7 @@
           VOLTAR
         </button>
         <ul>
-        <a href="index.html"><li>Pagina inicial</li></a>
+        <a href="index.php"><li>Pagina inicial</li></a>
         <a href=""><li>Informações</li></a>
         <a href=""><li>Conteúdos</li></a>
         <a href=""><li>Psicologia no cotidiano</li></a>
@@ -78,4 +78,4 @@
   </main>
 </body>
 </html>
-?>
+</?>
