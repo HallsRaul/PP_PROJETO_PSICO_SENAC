@@ -20,10 +20,10 @@
     box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
   }
   .titulo1{
-    margin-left: 45%; 
+    margin-left: 60%; 
     margin-top: 15.5%;
-    margin-right: 20%;
-    position: absolute;
+    margin-right: 10%;
+    position: flex;
     font-family: Georgia, 'Times New Roman', Times, serif, Light;
     color: rgb(252, 241, 241);
     box-sizing: 33%;
@@ -118,13 +118,13 @@
   }
 
   .texto1 {
-    margin-top: 16%;
+    margin-top: 16rem;
     font-size: 20px;
-    margin-left: 10%;
-    margin-right: 2%;
+    margin-left: 10rem;
+    margin-right: 2rem;
     position: absolute;
     text-align: justify;
-    box-sizing: 30%;
+    box-sizing: 30rem;
     display: inline-block;
     color: rgb(14, 14, 14);
     text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
@@ -149,13 +149,13 @@
   }
   @keyframes slidein {
     from {
-      margin-left: 25%;
-      width: 35%;
+      margin-left: 25rem;
+      width: 35rem;
     }
   
     to {
-      margin-left: 10%;
-      width: 50%;
+      margin-left: 10rem;
+      width: 50rem;
     }
   }
   
