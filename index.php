@@ -41,8 +41,9 @@
    <b>La Vitale</b> é um site criado para ajudar e conscientizar as pessoas sobre os acessos à psicologia e seus conceitos, como pode ser fundamental,
     segura e, em alguns casos, muito importante. A psicologia deve ser respeitada e assim <b>sempre</b> deve ser.
   </h2></center>
+  <br>
   </div>
-    <div class="imagem_menu">
+    <div class="imagem_menu container mt-5 mb-5 pb-5">
     <a href="https://www.senacrs.com.br/unidade/84"><img src="img/senaclogo.png"></a>
     </div>
 </body>

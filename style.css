@@ -153,10 +153,9 @@
   
   .imagem_menu{
     width: 100%;
-    margin-top: 32%;
   }
   .imagem_menu img{
-    width: 6%;
+    width: 10%;
     margin-left:90%;
   }
   .imagem_menu img:hover{
