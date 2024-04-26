@@ -105,7 +105,7 @@
   }
   #drawer2{
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 15%;  
     height: 45px;
     width: 70px;
     border-radius: 5%;
@@ -167,7 +167,7 @@
   }
   .h2-titulo {
     text-align: justify;
-    font-size: larger;
+    font-size: 30px;
     color: black;
     box-sizing: 20%;
   }
