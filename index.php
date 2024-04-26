@@ -43,7 +43,7 @@
   </h2></center>
   <br>
   </div>
-    <div class="imagem_menu container mt-5 mb-5 pb-5">
+    <div class="imagem_menu container mb-5">
     <a href="https://www.senacrs.com.br/unidade/84"><img src="img/senaclogo.png"></a>
     </div>
 </body>

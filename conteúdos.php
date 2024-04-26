@@ -9,7 +9,7 @@
 <script src="script.js"></script>
 <title>Document</title>
 </head>
-<body class="mainbody">
+<body class="mainbody2">
     <button id="drawer">
       <div class="iconmenu"></div>
       <div class="iconmenu"></div>
@@ -21,15 +21,10 @@
         </button>
         <ul>
         <a href="index.php"><li>Pagina inicial</li></a>
-        <a href=""><li>Informações</li></a>
-        <a href=""><li>Conteúdos</li></a>
-        <a href=""><li>Psicologia no cotidiano</li></a>
-        <a href=""><li>Dúvidas</li></a>
         <a href=""><li>Sobre nós</li></a>
       </ul>
     </div>
-    <main>
-  <div style="display: inline-box;">
+  <center><div style="display: inline-box;">
     <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
       <div class="col-md-4">
@@ -114,8 +109,7 @@
       </div>
     </div>
   </div>
-  </div>
-  </main>
+  </div></center>
 </body>
 </html>
 </?>

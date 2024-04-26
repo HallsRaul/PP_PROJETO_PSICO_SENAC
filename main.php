@@ -22,7 +22,7 @@
         <ul>
         <a href="index.php"><li>Pagina inicial</li></a>
         <a href=""><li>Informações</li></a>
-        <a href=""><li>Conteúdos</li></a>
+        <a href="conteúdos.php"><li>Conteúdos</li></a>
         <a href=""><li>Psicologia no cotidiano</li></a>
         <a href=""><li>Dúvidas</li></a>
         <a href=""><li>Sobre nós</li></a>
