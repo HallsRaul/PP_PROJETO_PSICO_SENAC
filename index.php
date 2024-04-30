@@ -11,7 +11,7 @@
 </head>
 <body class="indexbody">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(rgba(0, 0, 0, 0.130), rgba(0, 0, 0, 0.120), rgba(0, 0, 0, 0.00));";>
-    </button><a class="navbar-brand" href="#">La Vitale</a>
+    </button><span classs="titulo-navbar"><a class="navbar-brand" href="#">La Vitale</a></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav";>
       <ul class="navbar-nav">
@@ -27,8 +27,8 @@
       </ul>
     </div>
   </nav>
-  <div class="container mt-5 mb-5">
-    <a href="main.php" class="titulo1" style="font-size: 100px;"><h1 style="font-size: 70px;">La Vitale</h1></a>
+  <div class="container mt-5">
+    <a href="main.php" class="titulo1";><h1 style="font-size: 70px;">LA VITALE</h1></a>
     <br>
     <br>
     <br>
@@ -43,7 +43,7 @@
   </h2></center>
   <br>
   </div>
-    <div class="imagem_menu container mb-5">
+    <div class="imagem_menu container mb-2">
     <a href="https://www.senacrs.com.br/unidade/84"><img src="img/senaclogo.png"></a>
     </div>
 </body>

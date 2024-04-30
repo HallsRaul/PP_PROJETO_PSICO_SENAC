@@ -1,15 +1,15 @@
   .indexbody{
-    background-image: linear-gradient(rgb(43, 6, 43), rgb(100, 8, 100), rgb(43, 6, 43));
+    background-image: linear-gradient(#6248F0, #4763F0, #6248F0);
     background-size: auto;
     background-repeat: repeat;
   }
   .mainbody{
-    background-image: repeating-linear-gradient(rgb(65, 8, 65), rgb(100, 8, 100), rgb(65, 8, 65));
+    background-image: linear-gradient(#6248F0,  #8194F0, #6248F0);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .mainbody2{
-    background-image: repeating-linear-gradient(rgb(26, 3, 26), rgb(43, 4, 43), rgb(26, 3, 26));
+    background-image: linear-gradient(rgb(240, 102, 240), rgb(243, 142, 243), rgb(240, 102, 240));
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -24,20 +24,17 @@
     -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
   }
+  .titulo-navbar{
+    color: #FFDF36;
+  }
   .titulo1{
     position: absolute;
     font-family: Trebuchet MS, sans-serif;
-    color: rgb(252, 241, 241);
+    color: #FFDF36;
     box-sizing: 20%;
     display: inline-block;
-    transition: 500ms linear;
     font-size: 100px;
     text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
-  }
-  .titulo1:hover{
-    transform: scaleY(1.0);
-    transform: scaleX(1.02);
-    text-transform: uppercase;
   }
 
   a{
@@ -48,17 +45,14 @@
     text-decoration: none;
   }
   a:visited { 
-    color: none;		
+    color: #FFDF36;		
     text-decoration:none;
   }    	
   a:active {  				
-    color: #FFDF36 ;
     text-decoration:none; 
   }    	
   a:hover {  			
-    transition: transform 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 500ms linear;;
-    color: #FFDF36;
     text-decoration:none;  	
     text-shadow: 4px 0px 5px 0px rgba(15, 15, 15, 0.75);
   }  
@@ -161,7 +155,7 @@
     width: 100%;
   }
   .imagem_menu img{
-    width: 10%;
+    width: 10vmax;
     margin-left:90%;
   }
   .imagem_menu img:hover{
