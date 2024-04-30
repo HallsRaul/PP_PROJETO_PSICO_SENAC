@@ -48,10 +48,12 @@
     color: #FFDF36;		
     text-decoration:none;
   }    	
-  a:active {  				
+  a:active {
+    color: white;
     text-decoration:none; 
   }    	
-  a:hover {  			
+  a:hover {  		
+    color: rgb(220, 57, 232);	
     box-shadow: 500ms linear;;
     text-decoration:none;  	
     text-shadow: 4px 0px 5px 0px rgba(15, 15, 15, 0.75);
@@ -120,7 +122,7 @@
     text-align: justify;
     box-sizing: 0;
     display: block;
-    color: rgb(14, 14, 14);
+    color: rgb(249, 249, 249);
     text-shadow: 0px 2px 0px rgba(49, 47, 47, 0.308);
   }
   

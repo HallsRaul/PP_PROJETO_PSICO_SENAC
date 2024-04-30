@@ -11,7 +11,8 @@
 </head>
 <body class="indexbody">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(rgba(0, 0, 0, 0.130), rgba(0, 0, 0, 0.120), rgba(0, 0, 0, 0.00));";>
-    </button><span classs="titulo-navbar"><a class="navbar-brand" href="#">La Vitale</a></span>
+    </button>
+    <a class="navbar-brand" href="#">La Vitale</a>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav";>
       <ul class="navbar-nav">
@@ -33,7 +34,7 @@
     <br>
     <br>
     <br>  
-    <h1 class="texto1" style="text-decoration: underline; text-decoration-thickness:calc(2px);";>Aprenda, se cuide e se conheça!</h1>
+    <h1 class="texto1">Aprenda, se cuide e se conheça!</h1>
     <center><h2 class="h2-titulo">
     <br>
     <br>
