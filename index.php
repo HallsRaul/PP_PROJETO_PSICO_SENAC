@@ -1,26 +1,30 @@
-<?php>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style.css?t=<?php echo date("YmdHis").rand(1,9999999)?>"/>
-<script src="script.js"></script>
-<title>Document</title>
-</head>
-<body class="indexbody">
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(rgba(0, 0, 0, 0.130), rgba(0, 0, 0, 0.120), rgba(0, 0, 0, 0.00));";>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <title>Evotron</title>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">LA<span class="span-amarelo">V</span>ITALE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">La Vitale</a>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav";>
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Primeiros passos<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="conteúdos.php">Conteúdos</a>
+          <a class="nav-link" href="#">Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sobre</a>
@@ -28,25 +32,55 @@
       </ul>
     </div>
   </nav>
-  <div class="container mt-5">
-    <a href="main.php" class="titulo1";><h1 style="font-size: 70px;">LA VITALE</h1></a>
-    <br>
-    <br>
-    <br>
-    <br>  
-    <h1 class="texto1">Aprenda, se cuide e se conheça!</h1>
-    <center><h2 class="h2-titulo">
-    <br>
-    <br>
-    <br>
-   <b>La Vitale</b> é um site criado para ajudar e conscientizar as pessoas sobre os acessos à psicologia e seus conceitos, como pode ser fundamental,
-    segura e, em alguns casos, muito importante. A psicologia deve ser respeitada e assim <b>sempre</b> deve ser.
-  </h2></center>
-  <br>
+  
+  <div id="continua-header" class="container-fluid pt-5 pb-5">
+    <h1 id="header-h1" class="text-center">LA<span class="span-roxo"></span><span class="span-amarelo">VITALE</span></h1>
+    <h2 id="header-h2" class="text-center pb-5">
+      Além do corpo
+      <br>
+      Cuide da mente
+    </h2>
   </div>
-    <div class="imagem_menu container mb-2">
-    <a href="https://www.senacrs.com.br/unidade/84"><img src="img/senaclogo.png"></a>
-    </div>
+  </body>
+    <main>
+
+        <div id="transicao-main">
+            <br>
+        </div>
+
+      <center>
+        <h3 class="mt-5 ml-5" style="font-size: 60px;">PRIMEIROS PASSOS</h3>
+      </center>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+
+      <center><div class="card bg-dark text-white w-75 mb-5">
+        <img src="https://s.dicio.com.br/imagem.png" class="card-img" alt="definição de imagem aleatoria">
+          <div class="card-img-overlay">
+            <h5 class="card-title text-dark">Representação</h5>
+            <p class="card-text text-dark">Imagem</p>
+          <p class="card-text">?</p>
+      </center></div>
+
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+      </div>
+    </main>
 </body>
 </html>
-</?>

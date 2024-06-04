@@ -1,89 +1,76 @@
-<?php>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-<title>Document</title>
-</head>
-<body class="mainbody">
-    <button id="drawer">
-      <div class="iconmenu"></div>
-      <div class="iconmenu"></div>
-      <div class="iconmenu"></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <title>Evotron</title>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">LA<span class="span-amarelo">V</span>ITALE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="menu"> 
-        <button id="drawer2">
-          VOLTAR
-        </button>
-        <ul>
-        <a href="index.php"><li>Pagina inicial</li></a>
-        <a href=""><li>Informações</li></a>
-        <a href="conteúdos.php"><li>Conteúdos</li></a>
-        <a href=""><li>Psicologia no cotidiano</li></a>
-        <a href=""><li>Dúvidas</li></a>
-        <a href=""><li>Sobre nós</li></a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Primeiros passos<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
       </ul>
     </div>
+  </nav>
     <main>
-    <center><p class="texto2">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Libero ab saepe adipisci similique error voluptatum architecto perferendis fuga 
-      incidunt? Assumenda porro vitae blanditiis quia laudantium nihil dicta a ducimus tempora. 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sit odit, numquam delectus
-      sequi ducimus quisquam ea nesciunt accusamus repudiandae provident eum libero quaerat unde vel, 
-      hic recusandae. Illo, velit?
-      <br>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Explicabo, architecto eligendi omnis officiis sed temporibus pariatur asperiores? 
-      Totam quas quasi vero qui eligendi, facere quisquam repudiandae quidem libero aliquid 
-      voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ab rerum. 
-      Alias labore voluptatem odio, reprehenderit temporibus maxime aliquam. Assumenda quidem 
-      accusantium neque praesentium et cupiditate similique ad reiciendis cum?
-      <br>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Libero ab saepe adipisci similique error voluptatum architecto perferendis fuga 
-      incidunt? Assumenda porro vitae blanditiis quia laudantium nihil dicta a ducimus tempora. 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sit odit, numquam delectus
-      sequi ducimus quisquam ea nesciunt accusamus repudiandae provident eum libero quaerat unde vel, 
-      hic recusandae. Illo, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Explicabo, architecto eligendi omnis officiis sed temporibus pariatur asperiores? 
-      Totam quas quasi vero qui eligendi, facere quisquam repudiandae quidem libero aliquid 
-      voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ab rerum. 
-      Alias labore voluptatem odio, reprehenderit temporibus maxime aliquam. Assumenda quidem 
-      accusantium neque praesentium et cupiditate similique ad reiciendis cum?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Libero ab saepe adipisci similique error voluptatum architecto perferendis fuga 
-      incidunt? Assumenda porro vitae blanditiis quia laudantium nihil dicta a ducimus tempora. 
-      <br>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sit odit, numquam delectus
-      sequi ducimus quisquam ea nesciunt accusamus repudiandae provident eum libero quaerat unde vel, 
-      hic recusandae. Illo, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Explicabo, architecto eligendi omnis officiis sed temporibus pariatur asperiores? 
-      Totam quas quasi vero qui eligendi, facere quisquam repudiandae quidem libero aliquid 
-      voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ab rerum. 
-      Alias labore voluptatem odio, reprehenderit temporibus maxime aliquam. Assumenda quidem 
-      accusantium neque praesentium et cupiditate similique ad reiciendis cum?
-      <br>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Libero ab saepe adipisci similique error voluptatum architecto perferendis fuga 
-      incidunt? Assumenda porro vitae blanditiis quia laudantium nihil dicta a ducimus tempora. 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sit odit, numquam delectus
-      sequi ducimus quisquam ea nesciunt accusamus repudiandae provident eum libero quaerat unde vel, 
-      hic recusandae. Illo, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-      Explicabo, architecto eligendi omnis officiis sed temporibus pariatur asperiores? 
-      Totam quas quasi vero qui eligendi, facere quisquam repudiandae quidem libero aliquid 
-      voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ab rerum. 
-      Alias labore voluptatem odio, reprehenderit temporibus maxime aliquam. Assumenda quidem 
-      accusantium neque praesentium et cupiditate similique ad reiciendis cum?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet harum voluptas, adipisci 
-      vel repellendus qui id, unde architecto sunt repudiandae voluptates. Nam placeat, doloremque 
-      eveniet perspiciatis commodi quisquam sint cum.
-    </p></center>
-  </main>
+
+        <div id="transicao-main">
+            <br>
+        </div>
+
+      <center>
+        <h3 class="mt-5 ml-5" style="font-size: 60px;">PRIMEIROS PASSOS</h3>
+      </center>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+
+      <center><div class="card bg-dark text-white w-75 mb-5">
+        <img src="https://s.dicio.com.br/imagem.png" class="card-img" alt="definição de imagem aleatoria">
+          <div class="card-img-overlay">
+            <h5 class="card-title text-dark">Representação</h5>
+            <p class="card-text text-dark">Imagem</p>
+          <p class="card-text">?</p>
+      </center></div>
+
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+      </div>
+    </main>
 </body>
 </html>
-</?>
