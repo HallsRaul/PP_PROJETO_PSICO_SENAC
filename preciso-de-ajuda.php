@@ -23,11 +23,11 @@
         <li class="nav-item">
           <a class="nav-link" href="index.php">Primeiros passos</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Conteúdos<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="main.php">Conteúdos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
+          <a class="nav-link active" href="preciso-de-ajuda.php">Preciso de ajuda<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sobre</a>
@@ -38,38 +38,45 @@
     <main>
 
       <center>
-        <h3 class="mt-5 ml-5" style="font-size: 60px;">PRIMEIROS PASSOS</h3>
+        <h3 class="mt-5 ml-5" style="font-size: 60px;">Quem procurar?</h3>
+
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Como entro em contato?</h3>
+      
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Tempo de espera e como avaliar</h3>
+
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
       </center>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-
-      <center><div class="card bg-dark text-white w-75 mb-5">
-        <img src="https://s.dicio.com.br/imagem.png" class="card-img" alt="definição de imagem aleatoria">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-dark">Representação</h5>
-            <p class="card-text text-dark">Imagem</p>
-          <p class="card-text">?</p>
-      </center></div>
-
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      </div>
     </main>
 </body>
 </html>

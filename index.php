@@ -14,7 +14,7 @@
   <body>
   
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">LA<span class="span-amarelo">V</span>ITALE</a>
+    <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITALE <style>user-select:none;</style></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,7 +24,10 @@
           <a class="nav-link" href="#">Primeiros passos<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link" href="main.php">Conteúdos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sobre</a>
@@ -34,7 +37,7 @@
   </nav>
   
   <div id="continua-header" class="container-fluid pt-5 pb-5">
-    <h1 id="header-h1" class="text-center">LA<span class="span-roxo"></span><span class="span-amarelo">VITALE</span></h1>
+    <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-roxo"></span><span class="span-amarelo">VITALE</span></h1>
     <h2 id="header-h2" class="text-center pb-5">
       Além do corpo
       <br>
