@@ -10,19 +10,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <title>La Vitale</title>
+    <title>La Vitalle</title>
   </head>
   <body>
   
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand naoSelecionavel" href="index.php">LA<span class="span-amarelo">V</span>ITALE</a>
+    <a class="navbar-brand naoSelecionavel" href="index.php">LA<span class="span-amarelo">V</span>ITALLE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Primeiros passos</a>
+          <a class="nav-link" href="index.php">Projeto e Dúvidas</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#">Conteúdos<span class="sr-only">(current)</span></a>
