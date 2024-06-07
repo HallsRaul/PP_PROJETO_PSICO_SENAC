@@ -52,7 +52,7 @@
       <br>
       "Conhecendo a Rede de Atenção Psicossocial do SUS (RAPS) O SUS conta com uma estrutura voltada exclusivamente para a Atenção Psicossocial, a RAPS, instituída em 2017, fruto da luta antimanicomial e da Política Nacional de Saúde Mental, estabelecida há mais de 20 anos."
       <br>
-      <span class="span-roxo">(trecho do texto retirado da postagem de Drauzio Varella no portal UOL:<a href="https://drauziovarella.uol.com.br/psiquiatria/como-conseguir-atendimento-psicologico-gratuito/#:~:text=Como%20conseguir%20atendimento%20psicol%C3%B3gico%20gratuito%201%20Conhecendo%20a,3%20Medicamentos%20gratuitos%204%20Em%20caso%20de%20crise">"https://encurtador.com.br/drauziovarellauol"</a>)</span>
+      <span style="color: #616161;">(trecho do texto retirado da postagem de Drauzio Varella no portal UOL:<a href="https://drauziovarella.uol.com.br/psiquiatria/como-conseguir-atendimento-psicologico-gratuito/#:~:text=Como%20conseguir%20atendimento%20psicol%C3%B3gico%20gratuito%201%20Conhecendo%20a,3%20Medicamentos%20gratuitos%204%20Em%20caso%20de%20crise">"https://encurtador.com.br/drauziovarellauol"</a>)</span>
       </p>
 
       <h3 class="mt-5 ml-5" style="font-size: 60px;">Como entro em contato?</h3>
