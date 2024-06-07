@@ -41,14 +41,18 @@
         <h3 class="mt-5 ml-5" style="font-size: 60px;">Quem procurar?</h3>
 
       <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+        De acordo com o portal de notícias <a href="https://g1.globo.com/profissao-reporter/noticia/2021/04/28/veja-onde-procurar-atendimento-psicologico-e-psiquiatrico-publico-em-cada-estado-do-pais.ghtml">g1</a> a secretaria afirma que as pessoas devem procurar alguma das diferentes unidades que compõem a rede de atenção básica dos municípios, como postos de saúde, unidades de saúde da família, entre outros. 
+      <br>
+      <br>
+        Considerando isso, é recomendando que nas situações em que se indetifique necessário o atendimento especializado, o usuário deve procurar instituições especializadas em saúde mental, sendo encaminhados para equipes como as Equipes Multiprofissionais de Atenção Especializada em Saúde Mental (AMENT) e os CAPS.
+      <br>
+      <br>
+        Já considerando alteração mental e risco a si próprio, recomenda-se a procura das redes de urgência e emergência da sua região. Outra alternativa viável é solicitar ajuda ligando para o Centro de Valorização da Vida (CVV) pelo site oficial da instituição por meio de conversa por bate-papo/chat online, e-mail, pessoalmente variando a partir do seu endereço e via telefone 188. Importante ressaltar que não há cobrança por ligação.
+      <br>
+      <br>
+      "Conhecendo a Rede de Atenção Psicossocial do SUS (RAPS) O SUS conta com uma estrutura voltada exclusivamente para a Atenção Psicossocial, a RAPS, instituída em 2017, fruto da luta antimanicomial e da Política Nacional de Saúde Mental, estabelecida há mais de 20 anos."
+      <br>
+      <span class="span-roxo">(trecho do texto retirado da postagem de Drauzio Varella no portal UOL:<a href="https://drauziovarella.uol.com.br/psiquiatria/como-conseguir-atendimento-psicologico-gratuito/#:~:text=Como%20conseguir%20atendimento%20psicol%C3%B3gico%20gratuito%201%20Conhecendo%20a,3%20Medicamentos%20gratuitos%204%20Em%20caso%20de%20crise">"https://encurtador.com.br/drauziovarellauol"</a>)</span>
       </p>
 
       <h3 class="mt-5 ml-5" style="font-size: 60px;">Como entro em contato?</h3>

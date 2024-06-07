@@ -27,6 +27,9 @@ p{
   font-family: Noto Sans, sans-serif;
   font-size: 70px;
 }
+.span-ref{
+  color: #929292;
+}
 .span-verde{
   color: #34AD29;
 }
