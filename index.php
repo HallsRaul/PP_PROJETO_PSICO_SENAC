@@ -12,10 +12,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <title>La Vitalle</title>
   </head>
+
   <body>
   
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITAL<span class="span-roxo">L</span>E<style>user-select:none;</style></a>
+    <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITALLE<style>user-select:none;</style></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,7 +39,7 @@
   </nav>
   
   <div id="continua-header" class="container-fluid pt-5 pb-5">
-    <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-roxo"></span><span class="span-amarelo">VITA<span class="span-roxo">L</span>LE</span></h1>
+    <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-amarelo">VITAL<span class="span-roxo">L</span>E</h1>
     <h2 id="header-h2" class="text-center pb-5">
       Além do corpo
       <br>
