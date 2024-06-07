@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/icone.png">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <title>Evotron</title>
+    <title>La Vitale</title>
   </head>
   <body>
   
@@ -41,7 +42,7 @@
         <h3 class="mt-5 ml-5" style="font-size: 60px;">Quem procurar?</h3>
 
       <p class="mt-5 mb-5 ml-5 mr-5">
-        De acordo com o portal de notícias <a href="https://g1.globo.com/profissao-reporter/noticia/2021/04/28/veja-onde-procurar-atendimento-psicologico-e-psiquiatrico-publico-em-cada-estado-do-pais.ghtml">g1</a> a secretaria afirma que as pessoas devem procurar alguma das diferentes unidades que compõem a rede de atenção básica dos municípios, como postos de saúde, unidades de saúde da família, entre outros. 
+        De acordo com o portal de notícias <a href="https://g1.globo.com/profissao-reporter/noticia/2021/04/28/veja-onde-procurar-atendimento-psicologico-e-psiquiatrico-publico-em-cada-estado-do-pais.ghtml" target="_blank">g1</a> a secretaria afirma que as pessoas devem procurar alguma das diferentes unidades que compõem a rede de atenção básica dos municípios, como postos de saúde, unidades de saúde da família, entre outros. 
       <br>
       <br>
         Considerando isso, é recomendando que nas situações em que se indetifique necessário o atendimento especializado, o usuário deve procurar instituições especializadas em saúde mental, sendo encaminhados para equipes como as Equipes Multiprofissionais de Atenção Especializada em Saúde Mental (AMENT) e os CAPS.
@@ -58,27 +59,26 @@
       <h3 class="mt-5 ml-5" style="font-size: 60px;">Como entro em contato?</h3>
       
       <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
+        Conheça o RAPS. Informações sobre no link: <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps">RAPS</a>
         <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+        <br>
+        Site oficial do Centro de Valorização da Vida. Informações sobre no link: <a href="https://cvv.org.br/">CVV</a>
+        <br>
+        <br>
+        Conheça o CAPS. Informações sobre no link: <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps">CAPS</a>
+          <br>
+          Número  de telefone para contato 188.
       </p>
 
       <h3 class="mt-5 ml-5" style="font-size: 60px;">Tempo de espera e como avaliar</h3>
 
       <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
+        Primeiramente, é importante checar as credenciais do profissional e avaliações. É importante analisar o perfil e a personalidade, o processo de tratamento se torna mais fácil e leve desenvolvendo uma boa confiança entre profissional e paciente. Como existem vários tipos de terapia, é bom pesquisar com qual você se identifica e se o psicólogo exerce a técnica escolhida por você. 
         <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+        Claro, Nas primeiras sessões é comum sentir-se tímido e nervoso. O início é introdutório, o profissional vai perguntar coisas básicas sobre a sua vida e seus gostos pessoais. 
+        <br>
+        <br>
+        Na questão de tempo espera, falando de serviços disponibilizados gratuitamente, como os disponiveis pelo Sisteme Único de Saúde (SUS), é comum um tempo de espera até ter sua consulta marcada e efetuada, o que pode em muitos casos ser um problema, porém, é de qualquer forma uma ferramenta para quem precisa. Se tiver condições busque profissionais que possam te ajudar mais rapidamente e efetivamente. Por isso, enfatizamos, busque bons profissionais, com bons históricos e formações e, claro, que se adaptem a você e tornem o tratamento natural e cada vez mais fácil de ser feito.
       </p>
       </center>
     </main>
