@@ -39,7 +39,7 @@
   </nav>
   
   <div id="continua-header" class="container-fluid pt-5 pb-5">
-    <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-amarelo">VITAL<span class="span-roxo">L</span>E</h1>
+    <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-amarelo">VITALLE</h1>
     <h2 id="header-h2" class="text-center pb-5">
       Além do corpo
       <br>
@@ -63,25 +63,6 @@
         <br>
         Logo, buscamos trazer isto e mais alguns conteúdos escritos pela própria dupla que desenvolve o projeto e por autores psicólogos e terapeutas que elaboraram artigos e livros baseados no assunto. Caso alguma informação esteja equivocada ou afete de alguma forma algum leitor, por favor, entre na sessão "Sobre" ou desça a página até seu fim e entre em contato conosco.
         <br>
-      </p>
-
-      <center><div class="card bg-dark text-white w-75 mb-5">
-        <img src="https://s.dicio.com.br/imagem.png" class="card-img" alt="definição de imagem aleatoria">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-dark">Representação</h5>
-            <p class="card-text text-dark">Imagem</p>
-          <p class="card-text">?</p>
-      </center></div>
-
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
       </p>
       </div>
     </main>

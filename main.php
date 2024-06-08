@@ -39,35 +39,71 @@
     <main>
 
       <center>
-        <h3 class="mt-5 ml-5" style="font-size: 60px;">PRIMEIROS PASSOS</h3>
+        <h3 class="mt-5 ml-5" style="font-size: 60px;">Conteúdos</h3>
       </center>
-      <p class="mt-5 mb-5 ml-5 mr-5">
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Artigo de Projeto</h3>
+        <p class="mt-5 mb-5 ml-5 mr-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
         ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
         blá blá blá blá blá blá.
         <br>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Introdução</h3>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
         ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
       </p>
-
-      <center><div class="card bg-dark text-white w-75 mb-5">
-        <img src="https://s.dicio.com.br/imagem.png" class="card-img" alt="definição de imagem aleatoria">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-dark">Representação</h5>
-            <p class="card-text text-dark">Imagem</p>
-          <p class="card-text">?</p>
-      </center></div>
-
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Psicologia no cotidiano</h3>
       <p class="mt-5 mb-5 ml-5 mr-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
         ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
         blá blá blá blá blá blá.
         <br>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo 
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Como a sociedade enxerga a psicologia?</h3>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Por quê devemos ter acompanhamento?</h3>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
+      </p>
+      <h3 class="mt-5 ml-5" style="font-size: 60px;">Tipos de terapia</h3>
+      <p class="mt-5 mb-5 ml-5 mr-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
+        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
+        blá blá blá blá blá blá.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
+        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
         ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
       </p>
       </div>
