@@ -64,10 +64,10 @@
         <br>
         Site oficial do Centro de Valorização da Vida. Informações sobre no link: <a href="https://cvv.org.br/">CVV</a>
         <br>
+          Número  de telefone para contato 188.
+        <br>
         <br>
         Conheça o CAPS. Informações sobre no link: <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps">CAPS</a>
-          <br>
-          Número  de telefone para contato 188.
       </p>
 
       <h3 class="mt-5 ml-5" style="font-size: 60px;">Tempo de espera e como avaliar</h3>
