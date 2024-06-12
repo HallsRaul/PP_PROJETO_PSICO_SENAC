@@ -1,3 +1,6 @@
+<?php
+ include_once 'conexao.php';
+?>
 <?php>
 <!DOCTYPE html>
 <html lang="en">
