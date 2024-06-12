@@ -42,75 +42,19 @@ include_once 'conexao.php';
   </nav>
     <main>
 
-      <center>
-        <h3 class="mt-5 ml-5" style="font-size: 60px;">Conteúdos</h3>
-      </center>
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Artigo de Projeto</h3>
-        <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Introdução</h3>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Psicologia no cotidiano</h3>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Como a sociedade enxerga a psicologia?</h3>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Por quê devemos ter acompanhamento?</h3>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      <h3 class="mt-5 ml-5" style="font-size: 60px;">Tipos de terapia</h3>
-      <p class="mt-5 mb-5 ml-5 mr-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique! Blá blá
-        blá blá blá blá blá blá.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum tempora,
-        hic sapiente officiis harum quam sunt aliquam quibusdam. Dolores ipsum nemo
-        ipsa perferendis laudantium vel suscipit consequatur. Iure, similique!
-      </p>
-      </div>
+      <?php
+      $sql = "SELECT * FROM conteudos"; 
+      $result = mysqli_query($conexao, $result);
+      while ($row = mysqli_fetch_array($result)){
+      ?>
+
+    <div class = "block">
+      <h2><a class ="" href="conteudos.php?id=<?php echo $row[conteudosid];?>"><?php echo $row ['titulo'];
+      <p href="conteudos.php?id=<?php echo $row['conteudosid];?>"><?php echo $row ['texto'];?></p>
+    </div>
+    <?php
+    ?>
+    }
     </main>
 </body>
 </html>
