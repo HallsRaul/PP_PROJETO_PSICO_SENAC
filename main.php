@@ -43,18 +43,17 @@ include_once 'conexao.php';
     <main>
 
       <?php
-      $sql = "SELECT * FROM conteudos"; 
-      $result = mysqli_query($conexao, $result);
+      $sql = "SELECT * FROM conteudos";
+      $result = mysqli_query($conexao, $sql);
       while ($row = mysqli_fetch_array($result)){
       ?>
-
     <div class = "block">
-      <h2><a class ="" href="conteudos.php?id=<?php echo $row[conteudosid];?>"><?php echo $row ['titulo'];
-      <p href="conteudos.php?id=<?php echo $row['conteudosid];?>"><?php echo $row ['texto'];?></p>
+      <h2><a class ="" href="conteudos.php?id=<?php echo $row[conteudosid];?>"><?php echo $row ['titulo'];?></a></h2>
+      <p href="conteudos.php?id=<?php echo $row['conteudosid'];?>"><?php echo $row ['texto'];?></p>
     </div>
     <?php
-    ?>
     }
+    ?>
     </main>
 </body>
 </html>
