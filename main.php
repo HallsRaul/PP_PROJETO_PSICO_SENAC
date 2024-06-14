@@ -40,20 +40,24 @@ include_once 'conexao.php';
       </ul>
     </div>
   </nav>
-    <main>
-
-      <?php
-      $sql = "SELECT * FROM conteudos";
-      $result = mysqli_query($conexao, $sql);
-      while ($row = mysqli_fetch_array($result)){
-      ?>
-    <div class = "block">
-      <h2><a class ="" href="conteudos.php?id=<?php echo $row[conteudosid];?>"><?php echo $row ['titulo'];?></a></h2>
-      <p href="conteudos.php?id=<?php echo $row['conteudosid'];?>"><?php echo $row ['texto'];?></p>
-    </div>
-    <?php
-    }
-    ?>
-    </main>
+  <main>
+          <div class="row">
+          <?php 
+          $sql = "SELECT * FROM conteudos";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+          <div>
+            <h1 href="conteudos.php?id=<?php echo $row['conteudosid'];?>"><?php echo $row['titulo'];?></h1>
+            
+            
+          </div>
+          <?php
+          }
+          ?>
+        
+     </div> 
 </body>
 </html>
