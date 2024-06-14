@@ -46,6 +46,7 @@ include_once 'conexao.php';
           $sql = "SELECT * FROM conteudos";
           // executa o comando SQL no banco e retornar os dados
           $result = mysqli_query( $conexao, $sql );
+          
           // laco de repeticao 
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
