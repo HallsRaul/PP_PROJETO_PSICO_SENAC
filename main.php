@@ -63,9 +63,14 @@ include_once 'conexao.php';
           // laco de repeticao 
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
-          <div>
-            <h1><?php echo $row['tiposid'];?>"><?php echo $row['titulo'];?></h1>
-            <p class="text-center" <?php echo $row['tiposid'];?>"><?php echo $row['texto'];?></p>
+            
+        <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+        <p> <h1><?php echo $row['tiposid'];?>"><?php echo $row['titulo'];?></h1></p>
+     </div>
+   
+      
             
             
           </div>
