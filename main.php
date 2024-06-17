@@ -45,13 +45,27 @@ include_once 'conexao.php';
           <?php 
           $sql = "SELECT * FROM conteudos";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );
-          
+          $result = mysqli_query( $conexao, $sql );     
           // laco de repeticao 
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
           <div>
-            <h1 href="conteudos.php?id=<?php echo $row['conteudosid'];?>"><?php echo $row['titulo'];?></h1>
+            <h1><?php echo $row['conteudosid'];?>"><?php echo $row['titulo'];?></h1>
+            <?php
+          }
+          ?>
+          </div>
+
+          <?php 
+          $sql = "SELECT * FROM tiposdeterapia";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );     
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+          <div>
+            <h1><?php echo $row['tiposid'];?>"><?php echo $row['titulo'];?></h1>
+            <p class="text-center" <?php echo $row['tiposid'];?>"><?php echo $row['texto'];?></p>
             
             
           </div>
