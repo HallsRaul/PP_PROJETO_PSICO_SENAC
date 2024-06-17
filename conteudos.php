@@ -6,6 +6,7 @@
  $psiconocotidianoid = $_GET['id'];
  $porquedevemosfazerid = $_GET['id'];
  $comoasociedadeid = $_GET['id'];
+ $duvidasid = $_GET['id'];
 
 ?>
 <?php>
