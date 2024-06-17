@@ -41,7 +41,7 @@ include_once 'conexao.php';
     </div>
   </nav>
   <main>
-          <div class="row">
+      <div class="row">
           <?php 
           $sql = "SELECT * FROM conteudos";
           // executa o comando SQL no banco e retornar os dados
@@ -50,11 +50,11 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
           <div>
-            <h1><?php echo $row['conteudosid'];?>"><?php echo $row['titulo'];?></h1>
+            <h1><?php echo $row['conteudosid'];?><?php echo $row['titulo'];?></h1>
             <?php
           }
           ?>
-          </div>
+      </div>
 
           <?php 
           $sql = "SELECT * FROM tiposdeterapia";
@@ -65,19 +65,100 @@ include_once 'conexao.php';
           ?>
             
         <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-        <p> <h1><?php echo $row['tiposid'];?>"><?php echo $row['titulo'];?></h1></p>
-     </div>
-   
-      
-            
-            
+          <h5><?php echo $row['tiposid'];?><?php echo $row['titulo'];?></h5>
+          <p class="card-text"></p>
+          <a href="tiposdeterapia.php" class="btn btn-primary">Visitar</a>
+        </div>
           </div>
           <?php
           }
           ?>
-        
+
+
+        <?php 
+          $sql = "SELECT * FROM psiconocotidiano";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );     
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+            
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5><?php echo $row['psicoid'];?><?php echo $row['titulo'];?></h5>
+          <p class="card-text"></p>
+          <a href="psiconocotidiano.php" class="btn btn-primary">Visitar</a>
+        </div>
+        </div>      
+          <?php
+          }
+          ?>
+     </div> 
+
+     <?php 
+          $sql = "SELECT * FROM porquedevemosfazer";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );     
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+            
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5><?php echo $row['porqueid'];?><?php echo $row['titulo'];?></h5>
+          <p class="card-text"></p>
+          <a href="porquedevemosfazer.php" class="btn btn-primary">Visitar</a>
+        </div>
+        </div>      
+          <?php
+          }
+          ?>
+     </div> 
+
+     <?php 
+          $sql = "SELECT * FROM comoasociedade";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );     
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+            
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5><?php echo $row['comoid'];?><?php echo $row['titulo'];?></h5>
+          <p class="card-text"></p>
+          <a href="comoasociedade.php" class="btn btn-primary">Visitar</a>
+        </div>
+        </div>      
+          <?php
+          }
+          ?>
+     </div> 
+
+     <?php 
+          $sql = "SELECT * FROM duvidas";
+          // executa o comando SQL no banco e retornar os dados
+          $result = mysqli_query( $conexao, $sql );     
+          // laco de repeticao 
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          ?>
+            
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5><?php echo $row['duvidasid'];?><?php echo $row['titulo'];?></h5>
+          <p class="card-text"></p>
+          <a href="duvidas.php" class="btn btn-primary">Visitar</a>
+        </div>
+        </div>      
+          <?php
+          }
+          ?>
      </div> 
 </body>
 </html>
