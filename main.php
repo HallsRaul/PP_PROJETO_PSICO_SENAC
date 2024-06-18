@@ -50,13 +50,8 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
           <div>
-            <h1><?php echo $row['conteudosid'];?><?php echo $row['titulo'];?></h1>
-            <?php
-          }
-          ?>
-      </div>
-
-          <?php 
+            <h1 class="ml-4 mt-3 mb-4 "><?php echo $row['titulo'];?></h1>
+              <?php 
           $sql = "SELECT * FROM tiposdeterapia";
           // executa o comando SQL no banco e retornar os dados
           $result = mysqli_query( $conexao, $sql );     
@@ -64,10 +59,10 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
-        <div class="card" style="width: 18rem;">
+        <div class="card mr-5 ml-5 mt-5 mb-4" style="width: 60rem;">
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-          <h5><?php echo $row['tiposid'];?><?php echo $row['titulo'];?></h5>
+          <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
           <a href="tiposdeterapia.php" class="btn btn-primary">Visitar</a>
         </div>
@@ -75,6 +70,10 @@ include_once 'conexao.php';
           <?php
           }
           ?>
+            <?php
+          }
+          ?>
+      </div>
 
 
         <?php 
@@ -85,10 +84,10 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
-        <div class="card" style="width: 18rem;">
+        <div class="card ml-5" style="width: 60rem;">
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-          <h5><?php echo $row['psicoid'];?><?php echo $row['titulo'];?></h5>
+          <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
           <a href="psiconocotidiano.php" class="btn btn-primary">Visitar</a>
         </div>
@@ -106,10 +105,10 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
-        <div class="card" style="width: 18rem;">
+        <div class="card ml-5 mt-4" style="width: 60rem;">
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-          <h5><?php echo $row['porqueid'];?><?php echo $row['titulo'];?></h5>
+          <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
           <a href="porquedevemosfazer.php" class="btn btn-primary">Visitar</a>
         </div>
@@ -127,10 +126,10 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
-        <div class="card" style="width: 18rem;">
+        <div class="card ml-5 mb-4 mt-4" style="width: 60rem;">
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-          <h5><?php echo $row['comoid'];?><?php echo $row['titulo'];?></h5>
+          <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
           <a href="comoasociedade.php" class="btn btn-primary">Visitar</a>
         </div>
@@ -148,10 +147,10 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
-        <div class="card" style="width: 18rem;">
+        <div class="card ml-5" style="width: 60rem;">
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
-          <h5><?php echo $row['duvidasid'];?><?php echo $row['titulo'];?></h5>
+          <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
           <a href="duvidas.php" class="btn btn-primary">Visitar</a>
         </div>

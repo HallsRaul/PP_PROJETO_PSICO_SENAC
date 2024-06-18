@@ -122,3 +122,6 @@ h4 {
   user-select: none;            /* Possível implementação no futuro */
   /* cursor: default; */
 }
+.cardtipos{
+  margin-top: 5px;
+}

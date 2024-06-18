@@ -49,8 +49,8 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
           <div>
-          <h5><?php echo $row['tiposid'];?><?php echo $row['titulotop'];?></h5>
-        <p class="text-justify ml-4 mt-5"><?php echo $row['tiposid'];?><?php echo $row['texto'];?></p>
+          <h1><?php echo $row['titulotop'];?></h1>
+        <p class="text-justify ml-4 mt-5"><?php echo $row['texto'];?></p>
 
           </div>
 
