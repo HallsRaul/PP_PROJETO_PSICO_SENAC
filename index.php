@@ -41,9 +41,9 @@
   <div id="continua-header" class="container-fluid pt-5 pb-5">
     <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-amarelo">VITALLE</h1>
     <h2 id="header-h2" class="text-center pb-5">
-      Além do corpo
+    Mens sana
       <br>
-      Cuide da mente
+    in corpore sano
     </h2>
   </div>
   </body>
@@ -66,5 +66,27 @@
       </p>
       </div>
     </main>
+    <footer>
+    <ul class="imagemfooter ml-5 mt-5">
+        <li>
+        <a href="https://github.com/HallsRaul" target="blank">
+            <img src="./img/github-square.png" style="width: 20px;">
+            <p class="ml-5">
+            Raul Rodrigues Almeida
+            </p>
+            </a>
+        </li>
+        </ul>
+        <ul class="imagemfooter ml-5">
+        <li>
+        <a href="https://github.com/Sari-Dorneles" target="blank">
+            <img src="./img/github-square.png">
+            <p class="ml-5">
+            Saria Rodrigues Dorneles Vaz    
+            </p>
+            </a>
+        </li>
+        </ul>
+    </footer>
 </body>
 </html>

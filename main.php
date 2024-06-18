@@ -41,7 +41,7 @@ include_once 'conexao.php';
     </div>
   </nav>
   <main>
-      <div class="row">
+      <div class="row" style="margin-left: 43%; margin-top: 15px;">
           <?php 
           $sql = "SELECT * FROM conteudos";
           // executa o comando SQL no banco e retornar os dados
@@ -50,16 +50,31 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
           <div>
+<<<<<<< HEAD
             <h1 class="ml-4 mt-3 mb-4 "><?php echo $row['titulo'];?></h1>
               <?php 
+=======
+            <h1><?php echo $row['conteudosid'];?><?php echo $row['titulo'];?></h1>
+            <?php
+          }
+          ?>
+      </div>
+          
+          <?php 
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           $sql = "SELECT * FROM tiposdeterapia";
           // executa o comando SQL no banco e retornar os dados
           $result = mysqli_query( $conexao, $sql );     
           // laco de repeticao 
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
+<<<<<<< HEAD
             
         <div class="card mr-5 ml-5 mt-5 mb-4" style="width: 60rem;">
+=======
+        
+        <div class="card" style="width: 30rem; margin-right: 100px; margin-top: 50px">
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
@@ -84,7 +99,11 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
+<<<<<<< HEAD
         <div class="card ml-5" style="width: 60rem;">
+=======
+        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
@@ -105,7 +124,11 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
+<<<<<<< HEAD
         <div class="card ml-5 mt-4" style="width: 60rem;">
+=======
+        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
@@ -126,7 +149,11 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
+<<<<<<< HEAD
         <div class="card ml-5 mb-4 mt-4" style="width: 60rem;">
+=======
+        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
@@ -147,7 +174,11 @@ include_once 'conexao.php';
           while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
           ?>
             
+<<<<<<< HEAD
         <div class="card ml-5" style="width: 60rem;">
+=======
+        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
+>>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
           <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
