@@ -13,7 +13,7 @@
     <title>La Vitalle</title>
   </head>
 
-  <body class="">
+  <body class="pagina">
   
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITALLE<style>user-select:none;</style></a>
