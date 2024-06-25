@@ -125,3 +125,18 @@ h4 {
 .cardtipos{
   margin-top: 5px;
 }
+.imagemfooter {
+  list-style: none;
+}
+footer {
+  background-color: #161616;
+}
+#icongit:active{
+  color: white;
+}
+#icongit:hover{
+  color: rgb(154, 149, 149);
+}
+#icongit {
+  color: white;
+}

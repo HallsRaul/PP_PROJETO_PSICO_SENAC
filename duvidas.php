@@ -60,3 +60,8 @@ include_once 'conexao.php';
     </main>
 </body>
 </html>
+
+<?php
+    // include do footer
+    include_once './include/footer.php';
+    ?>

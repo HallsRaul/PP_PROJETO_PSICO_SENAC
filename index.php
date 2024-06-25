@@ -23,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Projeto e Dúvidas<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Projeto<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="main.php">Conteúdos</a>
@@ -66,27 +66,10 @@
       </p>
       </div>
     </main>
-    <footer>
-    <ul class="imagemfooter ml-5 mt-5">
-        <li>
-        <a href="https://github.com/HallsRaul" target="blank">
-            <img src="./img/github-square.png" style="width: 20px;">
-            <p class="ml-5">
-            Raul Rodrigues Almeida
-            </p>
-            </a>
-        </li>
-        </ul>
-        <ul class="imagemfooter ml-5">
-        <li>
-        <a href="https://github.com/Sari-Dorneles" target="blank">
-            <img src="./img/github-square.png">
-            <p class="ml-5">
-            Saria Rodrigues Dorneles Vaz    
-            </p>
-            </a>
-        </li>
-        </ul>
-    </footer>
 </body>
 </html>
+
+<?php
+    // include do footer
+    include_once './include/footer.php';
+    ?>

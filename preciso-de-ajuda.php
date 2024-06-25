@@ -84,3 +84,7 @@
     </main>
 </body>
 </html>
+<?php
+    // include do footer
+    include_once './include/footer.php';
+    ?>
