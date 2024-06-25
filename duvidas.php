@@ -1,7 +1,7 @@
 <?php
 include_once 'conexao.php';
 ?>
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@ include_once 'conexao.php';
     <title>La Vitalle</title>
   </head>
   <body>
-  
+ 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand naoSelecionavel" href="index.php">LA<span class="span-amarelo">V</span>ITALLE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,27 +41,22 @@ include_once 'conexao.php';
     </div>
   </nav>
     <main>
-    <?php 
+    <?php
           $sql = "SELECT * FROM duvidas";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
           <div>
-          <h5><?php echo $row['duvidasid'];?><?php echo $row['titulotop'];?></h5>
-        <p class="text-justify ml-4 mt-5"><?php echo $row['duvidasid'];?><?php echo $row['texto'];?></p>
-
+          <h2  class="text-center mt-5 "><?php echo $row['titulotop'];?></h2>
+          <p class="text-justify mb-5 ml-5 mr-5 mt-3"><?php echo $row['texto'];?></p>
+ 
           </div>
-
+ 
        <?php
           }
           ?>
     </main>
 </body>
 </html>
-
-<?php
-    // include do footer
-    include_once './include/footer.php';
-    ?>

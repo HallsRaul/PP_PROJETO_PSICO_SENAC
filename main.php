@@ -1,7 +1,7 @@
 <?php
 include_once 'conexao.php';
 ?>
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@ include_once 'conexao.php';
     <title>La Vitalle</title>
   </head>
   <body>
-  
+ 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand naoSelecionavel" href="index.php">LA<span class="span-amarelo">V</span>ITALLE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,154 +41,130 @@ include_once 'conexao.php';
     </div>
   </nav>
   <main>
-      <div class="row" style="margin-left: 43%; margin-top: 15px;">
-          <?php 
+     
+          <?php
           $sql = "SELECT * FROM conteudos";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-          <div>
-<<<<<<< HEAD
-            <h1 class="ml-4 mt-3 mb-4 "><?php echo $row['titulo'];?></h1>
-              <?php 
-=======
-            <h1><?php echo $row['conteudosid'];?><?php echo $row['titulo'];?></h1>
+         
             <?php
           }
           ?>
-      </div>
-          
-          <?php 
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
+              <?php
+ 
+         
           $sql = "SELECT * FROM tiposdeterapia";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-<<<<<<< HEAD
-            
-        <div class="card mr-5 ml-5 mt-5 mb-4" style="width: 60rem;">
-=======
-        
-        <div class="card" style="width: 30rem; margin-right: 100px; margin-top: 50px">
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+       
+        <div class="card mt-5" style="width: 56.3rem; margin-left:14%;">
+          <img class="card-img-center" src="./img/psico1.png" width="900" height="400" alt="">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
-          <a href="tiposdeterapia.php" class="btn btn-primary">Visitar</a>
+          <a href="tiposdeterapia.php" class="btn btn-warning">Visitar</a>
         </div>
           </div>
           <?php
           }
           ?>
             <?php
-          }
+         
           ?>
       </div>
-
-
-        <?php 
+ 
+ 
+        <?php
           $sql = "SELECT * FROM psiconocotidiano";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-            
-<<<<<<< HEAD
-        <div class="card ml-5" style="width: 60rem;">
-=======
-        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+           
+       
+           
+      <div class="card mt-5" style="width: 56.3rem; margin-left:14%;">
+       <img class="card-img-center" src="./img/psico3.png" width="900" height="400" alt="">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
-          <a href="psiconocotidiano.php" class="btn btn-primary">Visitar</a>
+          <a href="psiconocotidiano.php" class="btn btn-warning">Visitar</a>
         </div>
         </div>      
           <?php
           }
           ?>
-     </div> 
-
-     <?php 
+     </div>
+ 
+     <?php
           $sql = "SELECT * FROM porquedevemosfazer";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-            
-<<<<<<< HEAD
-        <div class="card ml-5 mt-4" style="width: 60rem;">
-=======
-        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+           
+        <div class="card mt-5" style="width: 56.3rem; margin-left:14%;">
+        <img class="card-img-center" src="./img/psico4.png" width="900" height="400" alt="">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
-          <a href="porquedevemosfazer.php" class="btn btn-primary">Visitar</a>
+          <a href="porquedevemosfazer.php" class="btn btn-warning">Visitar</a>
         </div>
         </div>      
           <?php
           }
           ?>
-     </div> 
-
-     <?php 
+     </div>
+ 
+     <?php
           $sql = "SELECT * FROM comoasociedade";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-            
-<<<<<<< HEAD
-        <div class="card ml-5 mb-4 mt-4" style="width: 60rem;">
-=======
-        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+           
+        <div class="card mt-5" style="width: 56.3rem; margin-left:14%;">
+        <img class="card-img-center" src="./img/psico2.png" width="900" height="400" alt="">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
-          <a href="comoasociedade.php" class="btn btn-primary">Visitar</a>
+          <a href="comoasociedade.php" class="btn btn-warning">Visitar</a>
         </div>
         </div>      
           <?php
           }
           ?>
-     </div> 
-
-     <?php 
+     </div>
+ 
+     <?php
           $sql = "SELECT * FROM duvidas";
           // executa o comando SQL no banco e retornar os dados
-          $result = mysqli_query( $conexao, $sql );     
-          // laco de repeticao 
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){       
+          $result = mysqli_query( $conexao, $sql );    
+          // laco de repeticao
+          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){      
           ?>
-            
-<<<<<<< HEAD
-        <div class="card ml-5" style="width: 60rem;">
-=======
-        <div class="card" style="width: 18rem; margin-right: 25px; margin-top: 50px">
->>>>>>> 84d1fd4dd42ed80d57ec43e785267fd34ac06f85
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+           
+       
+        <div class="card mt-5 mb-5" style="width: 56.3rem; margin-left:14%;">
+        <img class="card-img-center" src="./img/psico5.png" width="900" height="400" alt="">
         <div class="card-body">
           <h5><?php echo $row['titulo'];?></h5>
           <p class="card-text"></p>
-          <a href="duvidas.php" class="btn btn-primary">Visitar</a>
+          <a href="duvidas.php" class="btn btn-warning">Visitar</a>
         </div>
         </div>      
           <?php
           }
           ?>
-     </div> 
+     </div>
 </body>
 </html>
