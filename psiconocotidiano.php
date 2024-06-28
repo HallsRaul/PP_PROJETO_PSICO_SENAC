@@ -32,7 +32,7 @@ include_once 'conexao.php';
           <a class="nav-link" href="main.php">Conteúdos<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="preciso-de-ajuda.php">Preciso de ajuda</a>
+          <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sobre</a>
