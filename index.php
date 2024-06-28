@@ -13,7 +13,7 @@
     <title>La Vitalle</title>
   </head>
 
-  <body class="pagina">
+  
   
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITALLE<style>user-select:none;</style></a>
@@ -40,7 +40,7 @@
   
   <div id="continua-header" class="container-fluid pt-5 pb-5">
     <h1 id="header-h1" class="text-center naoSelecionavel">LA<span class="span-amarelo">VITALLE</h1>
-    <h2 id="header-h2" class="text-center pb-5">
+    <h2 id="header-h2" class="text-center font-italic pb-5">
     Mens sana
       <br>
     in corpore sano
