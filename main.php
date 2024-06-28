@@ -28,8 +28,8 @@ include_once 'conexao.php';
         <li class="nav-item">
           <a class="nav-link" href="index.php">Projeto e Dúvidas</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Conteúdos<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conteúdos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
