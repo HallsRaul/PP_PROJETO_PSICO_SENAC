@@ -22,16 +22,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Projeto e Dúvidas</a>
+          <a class="nav-link" href="index.php">Projeto</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="main.php">Conteúdos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
         </li>
       </ul>
     </div>
