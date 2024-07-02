@@ -16,7 +16,7 @@
   
   
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">V</span>ITALLE<style>user-select:none;</style></a>
+    <a class="navbar-brand naoSelecionavel" href="#">LA<span class="span-amarelo">VITALLE</span><style>user-select:none;</style></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,9 +30,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="preciso-de-ajuda.php">Preciso de ajuda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
         </li>
       </ul>
     </div>
